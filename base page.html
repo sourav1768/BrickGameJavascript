@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Brick Breaker</title>
+    
+</head>
+    <body>
+        <div class="jumbotron jumbotron-fluid" style="background-color: #222930; color: #4eb1ba; border-bottom: 8px solid #4eb1ba;">
+            <div class="container text-center">
+                <div class="display-4">Brick Breaker Game</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-5 text-center">
+                <div class="btn-group-vertical" style="margin-top: 65px;">
+                    <button type="button" class="btn btn-info" id="insbtn" style="padding: 5px 40px; align:center;"><a href="instructions.html" style="color: white; text-decoration: none;">Instructions</a></button>
+                </div>
+                <br>
+                <div class="btn-group-vertical" style="margin-top: 30px;">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="padding: 5px 40px">Difficulty</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" id="difficulty-1" href="indexeasy.html">Easy</a>
+                        <a class="dropdown-item" id="difficulty-2" href="indexmedium.html">Medium</a>
+                        <a class="dropdown-item" id="difficulty-3" href="indexhard.html">Hard</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-sm-7" id="hhhh"><iframe src="index.html" style="height: 450px; width: 700px; border: 2px solid powderblue; padding: 10px;"></iframe></div>
+        </div>
+        <script>
+            var a = document.getElementById("difficult-1");
+        </script>
+    </body>
+</html>
